@@ -2,7 +2,6 @@ package com.example.hclexercise.service;
 
 import com.example.hclexercise.entity.NaceCodes;
 import com.example.hclexercise.repository.NaceRepository;
-import java.util.List;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

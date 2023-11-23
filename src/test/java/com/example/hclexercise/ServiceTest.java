@@ -4,14 +4,11 @@ package com.example.hclexercise;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.BDDMockito.given;
-import static org.mockito.Mockito.doReturn;
 
 import com.example.hclexercise.entity.NaceCodes;
 import com.example.hclexercise.repository.NaceRepository;
 import com.example.hclexercise.service.NaceCodeService;
-import jakarta.validation.constraints.AssertTrue;
 import java.util.Optional;
-import org.aspectj.lang.annotation.Before;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
