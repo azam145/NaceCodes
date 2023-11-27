@@ -21,7 +21,6 @@ import org.springframework.web.bind.annotation.RestController;
 @Tag(name = "NACE description API")
 public class NaceController {
 
-  @Autowired
   private NaceCodeService naceSvc;
 
   /**
